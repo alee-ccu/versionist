@@ -5,6 +5,7 @@ rvm:
   - 2.2.2
   - 2.3.4
   - 2.4.1
+  - 2.5.1
   - jruby-18mode
   - jruby-19mode
   - jruby-head
@@ -31,6 +32,8 @@ matrix:
       rvm: jruby-18mode
     - gemfile: gemfiles/Rails-5.1
       rvm: jruby-19mode
+    - gemfile: gemfiles/Rails-5.2.1
+      rvm: 2.5.1
 
 gemfile:
   - gemfiles/Rails-3.0
@@ -39,4 +42,5 @@ gemfile:
   - gemfiles/Rails-4.0
   - gemfiles/Rails-5.0
   - gemfiles/Rails-5.1
+  - gemfiles/Rails-5.2.1
   - gemfiles/RailsAPI-0.0
